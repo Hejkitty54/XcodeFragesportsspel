@@ -13,6 +13,7 @@
 		7FA5080A1C64A0110019F716 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA508081C64A0110019F716 /* Main.storyboard */; };
 		7FA5080C1C64A0110019F716 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FA5080B1C64A0110019F716 /* Assets.xcassets */; };
 		7FA5080F1C64A0110019F716 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FA5080D1C64A0110019F716 /* LaunchScreen.storyboard */; };
+		7FA508181C64A3BB0019F716 /* QuestionGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA508171C64A3BB0019F716 /* QuestionGenerator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		7FA5080B1C64A0110019F716 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FA5080E1C64A0110019F716 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FA508101C64A0110019F716 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FA508161C64A3BB0019F716 /* QuestionGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionGenerator.h; sourceTree = "<group>"; };
+		7FA508171C64A3BB0019F716 /* QuestionGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionGenerator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				7FA5080D1C64A0110019F716 /* LaunchScreen.storyboard */,
 				7FA508101C64A0110019F716 /* Info.plist */,
 				7FA507FF1C64A0110019F716 /* Supporting Files */,
+				7FA508161C64A3BB0019F716 /* QuestionGenerator.h */,
+				7FA508171C64A3BB0019F716 /* QuestionGenerator.m */,
 			);
 			path = Fragesportsspel;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA508071C64A0110019F716 /* ViewController.m in Sources */,
+				7FA508181C64A3BB0019F716 /* QuestionGenerator.m in Sources */,
 				7FA508041C64A0110019F716 /* AppDelegate.m in Sources */,
 				7FA508011C64A0110019F716 /* main.m in Sources */,
 			);
