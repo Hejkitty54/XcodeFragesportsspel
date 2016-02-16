@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -101,6 +101,7 @@
                         <outlet property="alternative2" destination="VpU-nO-W0k" id="ayM-Mj-YKj"/>
                         <outlet property="alternative3" destination="uVi-jE-zaq" id="uI7-RM-SMv"/>
                         <outlet property="alternative4" destination="2hq-1T-qsh" id="UMi-ar-Ycs"/>
+                        <outlet property="nextButton" destination="cXI-9v-Hx4" id="lNO-CM-tgQ"/>
                         <outlet property="points" destination="PMQ-cA-Kyk" id="Fo9-K9-LXb"/>
                         <outlet property="question" destination="bOy-rG-of8" id="nL2-h8-Ke6"/>
                         <outlet property="restartGame" destination="Lxc-dp-6Ob" id="ere-AG-H7c"/>
@@ -110,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="337"/>
+            <point key="canvasLocation" x="350" y="328"/>
         </scene>
     </scenes>
 </document>

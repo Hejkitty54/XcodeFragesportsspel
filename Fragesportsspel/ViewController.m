@@ -23,6 +23,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *points;
 @property (nonatomic) int right;
 @property (nonatomic) int wrong;
+@property (weak, nonatomic) IBOutlet UIButton *nextButton;
 @end
 
 @implementation ViewController
@@ -36,6 +37,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.nextButton.hidden=YES;
     // Do any additional setup after loading the view, typically from a nib.
 }
 
@@ -47,6 +49,7 @@
     }else{
          [self.restartGame setTitle:@"Game finished! new game?" forState:UIControlStateNormal];
     }
+    self.nextButton.hidden=YES;
 }
 
 - (IBAction)startGame:(id)sender {
@@ -84,6 +87,9 @@
     if (self.round>5) {
         self.points.text=[NSString stringWithFormat:@"right: %d, wrong:%d", self.right,self.wrong];
     }
+    self.nextButton.hidden=NO;
+    
+    
 }
 
 - (IBAction)restartGame:(id)sender {
